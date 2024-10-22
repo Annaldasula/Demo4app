@@ -427,3 +427,8 @@ News search: All Articles: entity mentioned at least once in the article"""
 
 else:
     st.sidebar.write("No file uploaded yet.")
+
+        # Preview selected DataFrame in the main content area
+st.write("## Preview Selected DataFrame")
+selected_dataframe = st.selectbox("Select DataFrame to Preview:", list(dataframes_to_download.keys()))
+st.dataframe(dataframes_to_download[selected_dataframe])

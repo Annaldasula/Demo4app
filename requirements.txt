@@ -1,0 +1,8 @@
+streamlit
+pandas
+openpyxl
+xlsxwriter
+numpy
+pillow
+matplotlib
+nltk
